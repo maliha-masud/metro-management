@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="611.0" style="-fx-background-color: lavender;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UpdatePassengerController">
+   <children>
+      <Button fx:id="nextbtn" layoutX="461.0" layoutY="338.0" mnemonicParsing="false" onAction="#NextBtn" prefHeight="40.0" prefWidth="102.0" style="-fx-background-color: lightgrey; -fx-border-color: black;" text="Next">
+         <font>
+            <Font name="Californian FB Bold" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="51.0" layoutY="51.0" text="Update A Passenger Profile" textFill="#610955">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="185.0" prefHeight="30.0" prefWidth="95.0" text="Enter ID:">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="getpsngrid" layoutX="209.0" layoutY="187.0" prefHeight="26.0" prefWidth="325.0" />
+      <Button fx:id="BbButton" layoutX="68.0" layoutY="338.0" mnemonicParsing="false" onAction="#goTOMNGPassngr" prefHeight="40.0" prefWidth="95.0" style="-fx-border-color: Black;" text="Back">
+         <font>
+            <Font name="Californian FB Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

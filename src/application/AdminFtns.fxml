@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="415.0" prefWidth="618.0" style="-fx-background-color: powderblue; -fx-border-width: 4; -fx-border-color: Black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminFtnsController">
+   <children>
+      <Button fx:id="managepassinfobtn" layoutX="112.0" layoutY="167.0" mnemonicParsing="false" onAction="#ManagePassengerBtn" prefHeight="72.0" prefWidth="145.0" style="-fx-background-color: blue; -fx-border-color: white; -fx-border-width: 2;" text="Manage Passenger&#10;Information" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Californian FB Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="46.0" layoutY="42.0" text="Welcome, admin!">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="99.0" text="Choose a function to perform:">
+         <font>
+            <Font name="Bell MT" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="managernfinfobtn" layoutX="372.0" layoutY="167.0" mnemonicParsing="false" onAction="#MngRandFBtn" prefHeight="72.0" prefWidth="146.0" style="-fx-background-color: blue; -fx-border-color: white; -fx-border-width: 2;" text="Manage Route and&#10;Fare Details" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Californian FB Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="checkbkctrbtn" layoutX="236.0" layoutY="286.0" mnemonicParsing="false" onAction="#ChkBookingCtrBtn" prefHeight="72.0" prefWidth="146.0" style="-fx-background-color: blue; -fx-border-color: white; -fx-border-width: 2;" text="Check Booking&#10;Counter" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Californian FB Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="baackButton" layoutX="74.0" layoutY="358.0" mnemonicParsing="false" onAction="#backToLoginPage" prefHeight="26.0" prefWidth="75.0" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
