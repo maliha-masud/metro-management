@@ -9,14 +9,20 @@
 
 **Use cases:**
 * Log in as Admin, Receptionist, or Passenger
+
 **Admin:**
+
 * Manage Passenger Information
 * Manage Timetable Details
 * Manage Route and Fare Details
 * Check Booking Counter Details
+
 **Passenger**:
+
 * Display Fare for Route
 * Make Payment
 * Register Complaints
+
 **Receptionist:**
+
 * Book Ticket
