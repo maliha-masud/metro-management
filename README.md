@@ -5,7 +5,7 @@
 * User interface in JavaFX.
 * Business logic/application layer that follows OOP principles.
 * Database layer present.
-> All three layers (UI, business logic and DB) are connected.
+> **All three layers (UI, business logic and DB) are connected.**
 
 **Use cases:**
 * Log in as Admin, Receptionist, or Passenger
